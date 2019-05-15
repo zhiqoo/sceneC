@@ -112,6 +112,7 @@ void ofApp::draw(){
     ofEnableBlendMode(OF_BLENDMODE_ADD);
     ofEnablePointSprites();
     cam.begin();
+    cam.setDistance(5000);
     render.begin();
     
     // パーティクルの位置と経過時間
